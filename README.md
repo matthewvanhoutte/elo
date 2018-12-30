@@ -14,5 +14,24 @@ Root Mean Squared Error (RMSE)
 Submissions are scored on the root mean squared error. RMSE is defined as:
 ![alt text](https://cdn-images-1.medium.com/max/1600/1*9hQVcasuwx5ddq_s3MFCyw.gif)
 
-where y hat is the predicted loyalty score for each card_id, and y is the actual loyalty score assigned to a card_id.
+where y hat is the predicted loyalty score for each card_id, and y is the actual loyalty score assigned to a card_id. Predictions will be made for those represented in **test.csv** and **sample_submission.csv**.
 
+### Deadlines 
+* **February 19, 2019** - Entry deadline. You must accept the competition rules before this date in order to compete.
+
+* **February 19, 2019** - Team Merger deadline. This is the last day participants may join or merge teams.
+
+* **February 19, 2019** - External Data Disclosure deadline. All external data used in the competition must be disclosed in the forums by this date.
+
+* **February 26, 2019** - Final submission deadline.
+
+All deadlines are at **11:59 PM UTC** on the corresponding day unless otherwise noted. The competition organizers reserve the right to update the contest timeline if they deem it necessary.
+
+### Data
+#### File descriptions
+* **train.csv** - the training set
+* **test.csv** - the test set
+* **sample_submission.csv** - a sample submission file in the correct format - contains all card_ids you are expected to predict for.
+* **historical_transactions.csv** - up to 3 months' worth of historical transactions for each card_id
+* **merchants.csv** - additional information about all merchants / merchant_ids in the dataset.
+* **new_merchant_transactions.csv** - two months' worth of data for each card_id containing ALL purchases that card_id made at merchant_ids that were not visited in the historical data.
